@@ -1,0 +1,350 @@
+@font-face {
+  font-family: 'Geometry';
+  src: url('../fonts/Geometry-Soft-Pro-Bold-N.otf');
+}
+
+body {
+  /* font-family: 'Raleway', 'sans-serif'; */
+  font-family: 'Geometry';
+  background-color: #fff;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 13px;
+  color: #7a7a7a;
+  line-height: 24px;
+  left: 0.25px;
+}
+
+section {
+  padding-top: 80px;
+}
+
+
+.section-heading {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.section-heading span {
+  font-size: 26px;
+  display: block;
+  margin: 0px;
+  color: #ff326c;
+}
+
+.section-heading h2 {
+  margin-bottom: 0px;
+  margin-top: 14px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #232323;
+  letter-spacing: 0.5px;
+}
+
+
+.app-button a {
+  display: inline-block;
+  background-color: #ff326c;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  padding: 10px 16px;
+  text-decoration: none;
+  border: 2px solid #ff326c;
+  transition: all 0.5s;
+  border-radius: 50px;
+}
+
+.app-button a:hover {
+  background-color: transparent;
+  color: #ff326c;
+}
+
+/* gradient */
+.gradient1 {
+    background-image: linear-gradient(#414a4c,	#696969, 	#A9A9A9, #FFFFFF);
+    width: 100%;
+}
+
+.gradient2 {
+  background-image: linear-gradient(#FFFFFF, #A9A9A9, #696969, #414a4c);
+  width: 100%;
+}
+
+/* Banner Style */
+
+section.banner {
+  padding: 0px;
+}
+
+.banner {
+  background-image: url(../img/mainbanner.jpg);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner .app-image {
+  width: 200px;
+  height: 200px;
+  float: right;
+  margin-top: 200px;
+}
+
+.banner .banner-caption {
+  padding: 200px 0px;
+  width: 200px;
+  border-radius: 50px;
+  background-color: #000;
+}
+
+#line-dec {
+  display: flex;
+  flex-direction: row;
+}
+
+.banner .banner-caption .line-dec {
+  width: 40px;
+  height: 6px;
+  background-color: #ff326c;
+  border-radius: 50px;
+  margin-right: 6px;
+}
+
+.banner .banner-caption .line-dec2 {
+  width: 40px;
+  height: 6px;
+  background-color: #eee;
+  border-radius: 50px;
+}
+
+.banner .banner-caption h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 42px;
+  letter-spacing: 0.5px;
+  background: -webkit-linear-gradient(#ff326c, #eee);
+  background-clip: inherit;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.banner .banner-caption span {
+  font-size: 22px;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+.banner .banner-caption .app-button {
+  margin-top: 30px;
+}
+
+.popular-places .owl-nav {
+  display: none;
+}
+
+.popular-places .owl-dots {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.popular-places .owl-dots .owl-dot span  {
+  width: 12px;
+  height: 12px;
+  background-color: #cdcdcd!important;
+  display: inline-block;
+  border-radius: 50%;
+  margin: 0 3px;
+}
+
+.popular-places .owl-dots .active span {
+  background-color: #ff326c!important;
+}
+
+.popular-places .owl-dots button {
+  outline: none;
+}
+
+.popular-places .popular-item .thumb {
+  position: relative;
+}
+
+.popular-places .popular-item .thumb img {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  z-index: 1;
+  border-radius: 50px;
+}
+
+.popular-places .popular-item .thumb .text-content {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  z-index: 9;
+  color: #fff;
+}
+
+.popular-places .popular-item .thumb .text-content h4 {
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.popular-places .popular-item .thumb .text-content span {
+  font-size: 13px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  display: block;
+}
+
+.popular-places .popular-item .thumb .plus-button {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9;
+}
+
+
+.popular-places .popular-item .thumb .plus-button i {
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 50px;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.popular-places .popular-item .thumb .plus-button i:hover {
+  background-color: rgba(250,250,250,0.3);
+}
+
+#video-container  {
+  position: relative;
+  width: 100%;
+  height: 560px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#video-container video,
+.video-overlay {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+}
+
+#video-container .video-overlay {
+  z-index: 9999;
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+}
+
+#video-container .video-content {
+  z-index: 99999;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#video-container .video-content .inner {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+#video-container .video-content .inner span {
+  font-size: 17px;
+  display: block;
+  margin: 0px;
+  color: #fff;
+}
+
+#video-container .video-content .inner h2 {
+  margin-bottom: 0px;
+  margin-top: 14px;
+  font-size: 23px;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
+#video-container .video-content .inner a {
+  margin-top: 30px;
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+  text-align: center;
+  line-height: 56px;
+  color: #fff;
+  background-color: rgba(250,250,250,0.1);
+  font-size: 18px;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+/* Keyframes */
+@keyframes totop-in {
+  0% {
+    top: 600px;
+    opacity: 0;
+  }
+  100% {
+    top: 0;
+    opacity: 1;
+  }  
+}
+
+@keyframes totop-out {
+  0% {
+    top: 0px;
+    opacity: 1;
+  }
+  100% {
+    top: -100%;
+    opacity: 0;
+  }  
+}
+
+@media (max-width:992px) {
+
+  .banner .banner-caption {
+    padding: 200px 30px;
+  }
+
+  .featured-places .featured-item {
+    margin-bottom: 30px;
+  }
+
+  .featured-places .featured-item .down-content .first-button {
+    border-right: none;
+  }
+
+  #video-container .video-content {
+    padding: 0 30px;
+    text-align: center;
+  }
+  
+}
