@@ -1,2 +1,2 @@
 # ToggLab
-Elucidation of Art
+### Elucidation of Art
